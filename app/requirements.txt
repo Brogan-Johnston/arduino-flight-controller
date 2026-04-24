@@ -1,0 +1,11 @@
+# Flight Controller App — Python Dependencies
+#
+# Install with:  pip install -r requirements.txt
+#
+# ALSO required (Windows driver — not a pip package):
+#   vJoy driver: https://sourceforge.net/projects/vjoystick/
+#   After installing, open "Configure vJoy" and enable Device 1
+#   with axes X, Y, Z and at least 1 button.
+
+pyserial>=3.5
+pyvjoy>=1.0.1

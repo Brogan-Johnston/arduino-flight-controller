@@ -1,0 +1,29 @@
+{
+  "serial_port": "COM3",
+  "baud_rate": 115200,
+  "axes": {
+    "x": {
+      "min": 0,
+      "max": 1023,
+      "center": 512,
+      "deadzone": 0.05,
+      "sensitivity": 1.0,
+      "inverted": false
+    },
+    "y": {
+      "min": 0,
+      "max": 1023,
+      "center": 512,
+      "deadzone": 0.05,
+      "sensitivity": 1.0,
+      "inverted": false
+    },
+    "throttle": {
+      "min": 0,
+      "max": 1023,
+      "deadzone": 0.0,
+      "sensitivity": 1.0,
+      "inverted": false
+    }
+  }
+}
